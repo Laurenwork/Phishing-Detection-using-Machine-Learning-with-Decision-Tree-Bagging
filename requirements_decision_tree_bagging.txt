@@ -1,0 +1,35 @@
+# Requirements untuk Implementasi Decision Tree + Bagging
+# Phishing Detection System
+
+# Core machine learning libraries
+scikit-learn>=1.1.0          # Decision Tree, Bagging, metrics
+pandas>=1.5.0                # Data manipulation
+numpy>=1.21.0                # Numerical computing
+
+# Visualization
+matplotlib>=3.5.0            # Plotting
+seaborn>=0.11.0              # Statistical visualization
+
+# Model persistence
+joblib>=1.1.0                # Save/load models
+
+# Optional: untuk plot yang lebih menarik
+plotly>=5.0.0                # Interactive plots
+kaleido>=0.2.1               # Static image export
+
+# Jupyter notebook (optional)
+jupyter>=1.0.0               # Interactive development
+ipykernel>=6.0.0             # Python kernel
+
+# Untuk export ke berbagai format
+openpyxl>=3.0.0              # Excel export
+xlsxwriter>=3.0.0            # Excel export
+
+# Development tools (optional)
+pytest>=7.0.0                # Testing
+black>=22.0.0                # Code formatting
+flake8>=5.0.0                # Linting
+
+# Performance optimization (optional)
+numba>=0.56.0                # JIT compilation
+cython>=0.29.0               # C extensions
